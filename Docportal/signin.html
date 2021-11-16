@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>        
+        
+        <!-- Meta -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+
+      
+        <!-- Title -->
+        <title>MUET Document Portal</title>
+        
+       
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Mobile Menu -->
+        <link href="css/mmenu.css" rel="stylesheet" type="text/css" />
+        <link href="css/mmenu.positioning.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Stylesheet -->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+      
+    </head>
+    
+<body>
+<header id="header-v1" class="navbar-wrapper">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-default">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="navbar-header">
+                                    <div class="navbar-brand">
+                                        <h1>
+                                            <a href="index.html">MUET Document Portal
+                                                
+                                            </a>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <!-- Header Topbar -->
+                                <div class="header-topbar hidden-sm hidden-xs">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="topbar-info">
+                                                <a href="tel: +92 (22) 2772250-73"><i class="fa fa-phone"></i>+92 (22) 2772250-73</a>
+                                              <br>  
+                                                <a href="mailto: registrar@admin.muet.edu.pk "><i class="fa fa-envelope"></i> registrar@admin.muet.edu.pk </a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="navbar-collapse hidden-sm hidden-xs">
+                                    <ul class="nav navbar-nav">
+                                        <li>
+                                            <a  href="index.html">Home</a>
+                                            
+                                        </li>
+                                        
+                                        <li><a href="about.html">About US</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="mobile-menu hidden-lg hidden-md">
+                            <a href="#mobile-menu"><i class="fa fa-navicon"></i></a>
+                            <div id="mobile-menu">
+                                <ul>
+                                    <li class="mobile-title">
+                                        <h4>Navigation</h4>
+                                        <a href="#" class="close"></a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                        
+                                    </li>
+                                    
+                                   
+                                    
+                                    <li><a href="about.html">About US</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- End: Header Section -->
+        
+        <!-- Start:  Section -->
+        <div  id="home-header-carousel">
+            
+            
+            <div class="carousel">
+                <div class="item ">
+                    <figure>
+                        <img id="category-header" alt="Home " src="images/istockphoto-1316404524-170667a.jpg" />
+                    </figure>
+                    
+                </div>
+                
+                
+            </div>
+            <!-- ENd of carousel -->
+            
+           
+        </div>
+         <div class="container">
+            <div class="row">
+                <div id="applyform" class="bg-warning col-md-6 col-lg-12 col-sm-12"style="height: 1100px">
+                    <form method="post" action="data.php">
+                        <br><br>
+                        <h1 class="text-center">Fill Form</h1>
+                        <br><br>
+                    <table class="text-center" id="fill-form">
+                        <tr>
+                            <td>
+                            <span>First Name:</span>
+                            <input type="text" name="First_Name" autofocus placeholder="First Name" required>
+                        </td>
+                        <td>
+                            <span>Father Name:</span>
+                            <input type="text" name="Father_Name" placeholder="Father Name" required>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td id="rollno">
+                               &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Roll NO:</span>
+                                <input type="text" name="Roll_no" placeholder="Roll No" required>
+                            </td>
+                            <td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Email:</span>
+                                <input type="Email" name="Email" placeholder="Enter your email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                               &nbsp;&nbsp;&nbsp; <span>Phone no:</span>
+                                <input type="number" name="Phone" maxlength="11" placeholder="Enter your phone" required>
+                            </td>
+                             <td>
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Batch:</span>
+                                <input type="number" name="Batch" placeholder="Enter your batch" min="0" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    Program:
+                                </span>
+                                <br>
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="program" value="Undergraduate">
+                                <label>Undergraduate</label>
+                                <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="program" value="PostGraduate">
+                                <label>PostGraduate</label>
+                            </td>
+                            <td>
+                                <span>Payment:
+                                </span>
+                                <br>
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="payment" value="Bank Challan" >
+                                <label>Bank Challan</label>
+                                <br>
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="payment" value="Bank Reciept">
+                                <label>Bank Reciept</label>
+                            </td>
+                           
+                        </tr>
+                            <tr>
+                                <td>
+                                    <span>
+                                        Department:
+                                    </span>
+                                    <input type="text" name="Department" placeholder="Enter your Dept" required>
+                                </td>
+                                <td>
+                                    <span>
+                                        Enter challan/reciept no:
+                                    </span>
+                                    <input type="text" name="pay" placeholder="Challan no/Reciept No" required>
+                                </td>
+                                  </tr>
+                            <tr>
+                                <td stye="margin-left:10px;">
+                                    <span>Choose document:</span>
+                                    <br>
+                                 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <input type="radio" checked name="document" value="Marksheet">
+                                    <label>Marksheet</label>
+                                    <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="document" value="Pass Certificate">
+                                    <label>Pass Certificate</label>
+                                    <br>
+                                   &nbsp; <input type="radio" name="document" value="Degree">
+                                    <label>Degree</label>
+                                    <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="document" value="Duplicate Degree">
+                                    <label>Duplicate Degree</label>
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="document" value="Transcript">
+                                    <label>Transcript</label>
+                                    <br>
+                                    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="document" value="Duplicate Transcript">
+                                    <label>Duplicate Transcript</label>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                   <td>
+                                    <input type="file" name="file" multiple>
+                                </td>
+                          
+                            </tr>
+                    
+                    </table>
+                   <a href="last.html"> <input type="submit"  name="save"  id="sub-btn" value="Submit" class="btn btn-primary"></a>
+      
+                </div>
+            </div>   
+        </div>
+                    
+
+        <!-- Start: Footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div id="footer-widgets">
+                    <div class="row">
+                        <div  id="widget1" class="col-md-4 col-sm-6 widget-container" >
+                            <div id="text-2" class="widget widget_text">
+                                <h3 class="footer-widget-title">About Exam Dept.</h3>
+                                <span class="underline left"></span>
+                                <div class="textwidget">
+                                   Examinations Department is the backbone of any University/BOARD/INSTITUTE and also plays a vital role in the functioning of a University.The Examination Department of Mehran UET, Jamshoro conducts highly reliable examinations with zero tolerance towards two main campuses and four Affiliated Colleges/Institutes of Mehran University, Jamshoro. 
+                                </div>
+                                <address>
+                                    <div class="info">
+                                        <i class="fa fa-location-arrow"></i>
+                                        <span>Mehran University of Engineering & Technology
+MUET , Jamshoro
+Sindh Pakistan</span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-envelope"></i>
+                                        <span><a href="mailto:controller.exam@admin.muet.edu.pk">controller.exam@admin.muet.edu.pk
+
+</a></span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-phone"></i>
+                                        <span><a href="tel:(+92-22) 2771631">(+92-22) 2771631</a></span>
+                                    </div>
+                                </address>
+                            </div>
+                        </div>
+                        <div id="widget2"class="col-md-2 col-sm-6 widget-container">
+                            <div id="nav_menu-2" class="widget widget_nav_menu">
+                                <h3 class="footer-widget-title">Quick Links</h3>
+                                <span class="underline left"></span>
+                                <div class="menu-quick-links-container">
+                                    <ul id="menu-quick-links" class="menu">
+                                        <li><a href="#">Library News</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Meet Our Staff</a></li>
+                                        <li><a href="#">Board of Trustees</a></li>
+                                        <li><a href="#">Budget</a></li>
+                                        <li><a href="#">Annual Report</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix hidden-lg hidden-md hidden-xs tablet-margin-bottom"></div>
+                        <div class="col-md-2 col-sm-6 widget-container">
+                            <div id="text-4" class="widget widget_text">
+                                <h3 class="footer-widget-title">Timing</h3>
+                                <span class="underline left"></span>
+                                <div class="timming-text-widget">
+                                    <time>Mon - fri: 8 am - 3 pm</time>
+                                    
+                                </div>
+                            </div>          
+                        </div>
+                     
+                    </div>
+                </div>                
+            </div>
+            
+        </footer>
+        <!-- End: Footer -->
+           <!-- jQuery Latest Version 1.x -->
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+        <!-- Mobile Menu -->
+        <script type="text/javascript" src="js/mmenu.min.js"></script>
+        
+        <!-- Harvey - State manager for media queries -->
+        <script type="text/javascript" src="js/harvey.min.js"></script>
+        
+      
+       
+        <!-- Custom Scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
